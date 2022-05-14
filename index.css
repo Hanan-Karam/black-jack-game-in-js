@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    background-image: url('casino-table.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    height:  60vh;
+    margin-top: 300px;
+}
+h1{
+    font-size: 60px;
+    color:goldenrod;
+}
+
+#cards, #sum{
+    color:#fff;    
+    font-size: 25px;
+    font-weight: 600;
+}
+
+button{
+    background: goldenrod;
+    color: #016f32;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+#start-btn{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#message{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#fff;
+}
